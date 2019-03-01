@@ -1,6 +1,4 @@
 
-/* Web Fonts */
-
 
 /* Base Styles */
 
@@ -19,7 +17,7 @@ header {
 
   background-color: rgba(0,0,0,.03);
   padding: 20px 10px;
-  margin: 20px auto;
+  margin: 0 auto;
   display: block;
 		text-align: center;
 }
@@ -39,9 +37,15 @@ header li {
 }
 
 main {
+  background-color: rgba(28, 149, 176, 0.26);
   text-align: center;
   padding: 30px;
   margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: rgba(28, 149, 176, 0.8);
 }
 
 h3 {
@@ -56,19 +60,26 @@ p {
   color: rgba(0,0,0,.6);
 }
 
-a:link {
-  text-decoration: none;
-}
-
 footer {
-  background-color: rgba(0,0,0,.03);
+  background-color: rgba(0,0,0,.09);
   width: 100%;
   padding: 40px 30px;
   text-align: center;
 }
 
+/* Pseudo Classes */
+
+a:link {
+  text-decoration: none;
+
+}
 
 /* Classes */
+
+.header-text {
+  font-size: 1.20em;
+  padding: 0 20px;
+}
 
 .col {
   padding-top: 30px;
@@ -99,6 +110,8 @@ margin-bottom: 40px;
 }
 
 .left-footer {
+  font-family: 'Oswald', sans-serif;
+    color: rgba(28, 149, 176, 0.9);
   float: left;
   width: 50%;
 }
@@ -138,7 +151,7 @@ header li {
     text-transform: uppercase;
     background-color: inherit;
     text-align: center;
-    padding: 10px;
+    padding: 0;
     margin: 8px;
   }
 
@@ -163,8 +176,19 @@ h4 li {
     list-style: none;
     text-transform: uppercase;
     background-color: inherit;
-    padding: 0 12px;
+    padding: 0 0;
     margin: 0;
+  }
+
+  a:link {
+
+  padding: 10px;
+
+  }
+
+  a:hover {
+    padding: 10px;
+    background-color: rgba(28, 149, 176, 0.26);
   }
 
 .top {
@@ -193,6 +217,7 @@ h4 li {
   }
 
   .intro-img {
+    width: 320px;
     padding-left: 1em;
     padding-left: 10px;
     padding-right: 10px;
@@ -260,7 +285,7 @@ width: 60%;
     margin-bottom: 40px;
 
   }
- 
+
 header li {
     display: inline;
     list-style: none;
@@ -269,6 +294,20 @@ header li {
     text-align: center;
     padding-left: 10px;
     margin: 8px;
+  }
+
+  footer p {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+
+  .intro-img {
+    width: 400px;
+  }
+
+  .header-text {
+    font-size: 1.45em;
   }
 
   .block-one,
