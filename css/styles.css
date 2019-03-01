@@ -1,0 +1,290 @@
+
+/* Web Fonts */
+
+
+/* Base Styles */
+
+* {
+    box-sizing: border-box;
+    color: rgba(0,0,0,.8);
+}
+
+body {
+font-size: 1.2em;
+font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+
+  background-color: rgba(0,0,0,.03);
+  padding: 20px 10px;
+  margin: 20px auto;
+  display: block;
+		text-align: center;
+}
+
+ul {
+padding: 0;
+  margin-bottom: 40px;
+}
+
+header li {
+  list-style: none;
+  text-transform: uppercase;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 8px;
+}
+
+main {
+  text-align: center;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+h4 {
+  font-weight: bold;
+}
+p {
+  color: rgba(0,0,0,.6);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgba(0,0,0,.03);
+  width: 100%;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+
+/* Classes */
+
+.col {
+  padding-top: 30px;
+}
+
+.profile-img {
+
+padding: 20px 20px;
+margin-bottom: 40px;
+
+}
+
+.intro-img {
+  width: 300px;
+}
+
+.main-img {
+  width: 300px;
+}
+
+.border {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding-bottom: 2em;
+}
+
+.footish {
+  width: 100%;
+}
+
+.left-footer {
+  float: left;
+  width: 50%;
+}
+
+.right-footer1 {
+  float: left;
+  width: 50%;
+}
+.right-footer2 {
+  display: none;
+}
+
+.cf {
+  content: "";
+  display: table;
+  margin: 0 auto;
+}
+
+
+@media (min-width: 769px) {
+
+  header {
+    display: inline-block;
+      text-align: center;
+  }
+
+  ul {
+
+  padding: 0;
+    margin-bottom: 40px;
+
+  }
+
+header li {
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+    background-color: inherit;
+    text-align: center;
+    padding: 10px;
+    margin: 8px;
+  }
+
+header p {
+  text-align: left;
+  padding-left: 1em;
+
+}
+
+footer p {
+  width: 80%;
+  margin: 1em auto;
+}
+
+h4 ul {
+  padding: 0;
+  margin: 0;
+}
+
+h4 li {
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+    background-color: inherit;
+    padding: 0 12px;
+    margin: 0;
+  }
+
+.top {
+  width: 100%;
+  margin: 0 auto;
+}
+.nav {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-text {
+  float: left;
+  width: 55%;
+  text-align: left;
+  padding-left: 10px;
+}
+
+  .profile-img {
+  float: right;
+  width: 45%;
+  text-align: right;
+  padding-right: 10px;
+  margin-bottom: 40px;
+
+  }
+
+  .intro-img {
+    padding-left: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .main-img {
+    width: 300px;
+  }
+
+.content {
+  display: inline-block;
+  width: 90%;
+  padding: 20px 0;
+}
+
+.block-one,
+.block-two,
+.block-three,
+.block-four,
+.block-five,
+.block-six {
+    float: left;
+  width: 50%;
+  padding: 1em;
+margin: 0 auto;
+}
+
+.left-footer {
+  display: inline;
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+.right-footer1 {
+  display: none;
+}
+
+.right-footer2 {
+  display: table;
+  float: left;
+  width: 50%;
+    text-align: right;
+}
+
+@media (min-width: 1025px) {
+
+
+
+  header {
+    display: inline-block;
+      text-align: center;
+  }
+  header h1 {
+    float: left;
+    width: 40%;
+      text-align: left;
+      padding-left: 10px;
+  }
+
+  header ul {
+float: left;
+width: 60%;
+  text-align: right;
+  padding-right: 10px;
+    margin-bottom: 40px;
+
+  }
+
+header li {
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+    background-color: inherit;
+    text-align: center;
+    padding-left: 10px;
+    margin: 8px;
+  }
+
+  .block-one,
+  .block-two,
+  .block-three,
+  .block-four,
+  .block-five,
+  .block-six {
+      float: left;
+    width: 33%;
+    padding: 1em;
+  margin: 0 auto;
+  }
+
+  .main-img {
+    width: 265px;
+  }
+
+}
