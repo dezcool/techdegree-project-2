@@ -166,12 +166,12 @@ footer p {
   margin: 1em auto;
 }
 
-h4 ul {
+div ul {
   padding: 0;
-  margin: 0;
+
 }
 
-h4 li {
+div li {
     display: inline;
     list-style: none;
     text-transform: uppercase;
@@ -261,10 +261,9 @@ margin: 0 auto;
   width: 50%;
     text-align: right;
 }
+}
 
 @media (min-width: 1025px) {
-
-
 
   header {
     display: inline-block;
