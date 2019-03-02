@@ -38,6 +38,8 @@ header li {
 
 main {
   background-color: rgba(28, 149, 176, 0.26);
+  background: linear-gradient(#fff 0%, transparent 40%),
+  linear-gradient(0deg, rgba(53, 114, 172, 0.65), transparent);
   text-align: center;
   padding: 30px;
   margin: 0 auto;
@@ -46,32 +48,54 @@ main {
 h1 {
   font-family: 'Oswald', sans-serif;
   color: rgba(28, 149, 176, 0.8);
+  margin-top: 0;
 }
 
 h3 {
   text-transform: uppercase;
   font-family: sans-serif;
+  text-shadow: 0px 1px 1px rgba(0,0,0, .4);
 }
 
 h4 {
-  font-weight: bold;
+  text-shadow: 0px 1px 1px rgba(0,0,0, .3);
 }
+
 p {
   color: rgba(0,0,0,.6);
 }
 
+section {
+  text-align: center;
+  width: 100%;
+
+  background-image: linear-gradient(to left, rgba(53, 118, 172, 0.98), #cf0000);
+  margin: 0 auto;
+  padding: 40px;
+}
+
 footer {
   background-color: rgba(0,0,0,.09);
+  text-align: center;
   width: 100%;
   padding: 40px 30px;
-  text-align: center;
 }
 
 /* Pseudo Classes */
 
 a:link {
   text-decoration: none;
+}
 
+h4 a:link {
+
+padding: 10px;
+
+}
+
+h4 a:hover {
+  padding: 10px;
+  background-color: rgba(28, 149, 176, 0.26);
 }
 
 /* Classes */
@@ -100,6 +124,10 @@ margin-bottom: 40px;
   width: 300px;
 }
 
+.section-img {
+  width: 250px;
+}
+
 .border {
   border-bottom: 1px solid rgba(0,0,0,.1);
   padding-bottom: 2em;
@@ -114,6 +142,7 @@ margin-bottom: 40px;
     color: rgba(28, 149, 176, 0.9);
   float: left;
   width: 50%;
+  margin-top: 18px;
 }
 
 .right-footer1 {
@@ -180,6 +209,11 @@ div li {
     margin: 0;
   }
 
+  section p {
+    padding: 0 3em;
+
+  }
+
   a:link {
 
   padding: 10px;
@@ -223,6 +257,10 @@ div li {
     width: 330px;
   }
 
+  .section-img {
+    width: 320px;
+  }
+
 .content {
   display: inline-block;
   width: 100%;
@@ -238,13 +276,20 @@ div li {
   float: left;
   width: 50%;
   padding: 1em;
+}
+
+.section1, .section2 {
+  float: left;
+  width: 50%;
+  padding: 1.5em;
+  margin: 0 auto;
 
 }
 
 .left-footer {
   display: inline;
   float: left;
-  width: 50%;
+  width: 20%;
   text-align: left;
 }
 .right-footer1 {
@@ -254,7 +299,7 @@ div li {
 .right-footer2 {
   display: table;
   float: left;
-  width: 50%;
+  width: 80%;
     text-align: right;
 }
 }
